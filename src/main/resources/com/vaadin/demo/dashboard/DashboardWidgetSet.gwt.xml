@@ -23,6 +23,6 @@
 	</generate-with>
 
 
-    <inherits name="com.vaadin.addon.charts.Widgetset" />
+    
 
 </module>

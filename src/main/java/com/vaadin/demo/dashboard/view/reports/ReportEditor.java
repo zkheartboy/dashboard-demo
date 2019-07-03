@@ -5,7 +5,6 @@ import java.util.Collection;
 import java.util.Iterator;
 
 import com.vaadin.demo.dashboard.component.InlineTextEditor;
-import com.vaadin.demo.dashboard.component.TopSixTheatersChart;
 import com.vaadin.demo.dashboard.component.TopTenMoviesTable;
 import com.vaadin.demo.dashboard.component.TransactionsListing;
 import com.vaadin.demo.dashboard.domain.Transaction;
@@ -183,8 +182,6 @@ public final class ReportEditor extends VerticalLayout {
                         ? String.valueOf(prefillData) : null);
             } else if (type == PaletteItemType.TABLE) {
                 result = new TopTenMoviesTable();
-            } else if (type == PaletteItemType.CHART) {
-                result = new TopSixTheatersChart();
             } else if (type == PaletteItemType.TRANSACTIONS) {
                 result = new TransactionsListing(
                         (Collection<Transaction>) prefillData);
