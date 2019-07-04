@@ -8,7 +8,7 @@ Java全栈后台，纯java，不用写一句html和js
 
 运行程序
 ==
-运行maven命令'mvn -Pproduction-mode jetty:run'，调用jetty运行。浏览器打开地址http://localhost:8080查看运行效果。
+运行maven命令'mvn -Pproduction-mode jetty:run'，调用jetty运行。浏览器打开地址 http://localhost:8080 查看运行效果。
 
 运行maven命令'mvn package' 打包成war文件，可以运行在任何web容器。
 
